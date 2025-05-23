@@ -10,6 +10,8 @@ export default {
     extend: {
       colors: {
         background: "#ECF4FE",
+        primary: "#D3E5F8",
+        secondary: "#A3BDED",
       },
       fontFamily: {
         poppins: ["var(--font-poppins)"],
