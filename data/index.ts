@@ -73,10 +73,23 @@ export const experiences = [
 export const projects = [
   {
     id: 1,
-    title: "Project 1",
-    description: "Description of Project 1",
-    image: "/images/project1.jpg",
+    title: "Summit AI - Powered Job Tracker",
+    description: "A full-stack job tracking tool built with Django, React, and Celery. It integrates with the Gmail API for real-time sync and smart email parsing, classifies application status, detects duplicates, manages cycle data, and syncs key events to Google Calendar.",
+    image: "/images/summit.gif",
   },
+  {
+    id: 2,
+    title: "Prostate Cancer Detection",
+    description: "Two-Stage Deep Learning Pipeline for Prostate and Lesion Segmentation in MRI Scans. A pipeline of data processing and two U-Net transformer models that can output prostate and legion segmentation.",
+    image: "/images/prostate.png",
+  },
+  {
+    id: 3,
+    title: "Smart Knee Brace Diagnostic Device",
+    description: "Developed a knee mobility measurement device using C++ and Arduino. Collected and analyzed data from 8 diverse participants, applying PCA and Fourier transform to correlate joint range of motion with medical conditions.",
+    image: "/images/knee.png",
+  },
+
 ];
 
 export const skills = [
