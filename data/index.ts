@@ -94,8 +94,83 @@ export const projects = [
 
 export const skills = [
   {
+    id: 6,
+    name: "Arduino",
+    image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/arduino/arduino-original.svg",
+  },
+  {
+    id: 16,
+    name: "C",
+    image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg",
+  },
+  {
+    id: 5,
+    name: "C++",
+    image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg",
+  },
+  {
+    id: 8,
+    name: "Docker",
+    image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg",
+  },
+  {
+    id: 4,
+    name: "Django",
+    image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg",
+  },
+  {
+    id: 7,
+    name: "Git",
+    image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg",
+  },
+  {
+    id: 15,
+    name: "Javascript",
+    image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg",
+  },
+  {
+    id: 14,
+    name: "MongoDB",
+    image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg",
+  },
+  {
+    id: 13,
+    name: "MySQL",
+    image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg",
+  },
+  {
+    id: 10,
+    name: "Next.js",
+    image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg",
+  },
+  {
+    id: 12,
+    name: "PostgreSQL",
+    image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg",
+  },
+  {
+    id: 2,
+    name: "Python",
+    image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
+  },
+  {
+    id: 9,
+    name: "React Native",
+    image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg",
+  },
+  {
+    id: 11,
+    name: "Tailwind CSS",
+    image: "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg",
+  },
+  {
     id: 1,
-    name: "Skill 1",
-    image: "/images/skill1.jpg",
+    name: "Typescript",
+    image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg",
+  },
+  {
+    id: 3,
+    name: "Postman",
+    image: "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg",
   },
 ];  
