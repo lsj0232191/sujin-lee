@@ -16,7 +16,7 @@ const socialLinks = [
         icon: <FaLinkedin size={24}/>
     },
     {
-        href: "mailto:lsj0232191@gmail.com",
+        href: "mailto:sujin321.lee@gmail.com",
         icon: <FaEnvelope size={24}/>
     }
 ]

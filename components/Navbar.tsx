@@ -2,8 +2,8 @@ import Link from "next/link";
 
 const Navbar = () => {
     return (
-        <div className="w-full h-56 px-4 sm:px-8 bg-background flex items-center justify-center pt-20">
-            <nav className="w-full flex justify-center pt-10">
+        <div className="w-full h-28 px-4 sm:px-8 bg-background flex items-center justify-center pb-2">
+            <nav className="w-full flex justify-center">
                 <div className="bg-white rounded-full shadow-lg flex flex-col sm:flex-row items-center justify-between px-2 sm:px-4 md:px-16 lg:px-24 xl:px-32 py-4 max-w-7xl w-full">
                     <div className="flex items-center space-x-2 mb-2 sm:mb-0">
                         <span className="font-bold text-xl">Sujin Lee</span>
