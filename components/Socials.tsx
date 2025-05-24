@@ -14,7 +14,7 @@ const socialLinks = [
     },
     {
         key: "linkedin",
-        href: "https://www.linkedin.com/in/sujin-lee-6a0766258/",
+        href: "https://www.linkedin.com/in/sujin-lee321/",
         icon: <FaLinkedin size={24}/>
     },
     {
