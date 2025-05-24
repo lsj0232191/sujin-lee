@@ -12,6 +12,8 @@ export default {
         background: "#ECF4FE",
         primary: "#D3E5F8",
         secondary: "#A3BDED",
+        tertiary: "#E2E1DF",
+        cream: "#FBF1E5",
       },
       fontFamily: {
         poppins: ["var(--font-poppins)"],
