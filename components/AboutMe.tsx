@@ -6,7 +6,7 @@ const AboutMe = () => {
     return (
         <section 
             id="about"
-            className="bg-primary relative">
+            className="bg-blue-2 relative">
             <div className="container mx-auto flex flex-col items-center justify-center">
                 <h1 className="text-5xl font-bold pt-20 pb-5 mb-10">About Me</h1>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-24 bg-white rounded-lg p-10 mx-auto my-auto max-w-6xl">

@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <section 
         id="hero"
-        className="bg-background min-h-screen">                   
+        className="bg-blue-1 min-h-screen">                   
         <div className="container flex flex-col items-center justify-center mx-auto">
             <div className="flex flex-col items-start justify-center px-4">
                 <h1 className="text-6xl font-bold pt-20 pb-5">
