@@ -25,7 +25,7 @@ const Hero = () => {
     {/* Main hero content */}
     <section 
         id="hero"
-        className="absolute z-10 inset-0 flex items-center justify-center text-white font-bold px-4 text-3xl text-center md:text-4xl lg:text-7xl min-h-screen pointer-events-none">
+        className="relative z-10 w-full h-screen flex items-center justify-center text-white font-bold px-4 text-3xl text-center md:text-4xl lg:text-7xl pointer-events-none">
         <div className="container flex flex-col items-center justify-center mx-auto">
             <div className="flex flex-col items-start justify-center px-4">
                 <h1 className="text-6xl font-bold pt-20 pb-5">
@@ -39,12 +39,14 @@ const Hero = () => {
                 <Socials containerClassName="pt-10 mb-20"/>    
             </div>
         </div>
-        
-        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex flex-col items-center justify-center animate-bounce">
+    </section>
+    
+    <div className="fixed bottom-8 left-0 right-0 flex justify-center z-20 pointer-events-none">
+        <div className="flex flex-col items-center justify-center animate-bounce text-black">
             <span className="text-muted-foreground text-sm mb-2"> Scroll </span>
             <ArrowDown className="w-5 h-5 text-blue-500" />
         </div>
-    </section>
+    </div>
     </BackgroundGradientAnimation>
   );
 };
