@@ -16,12 +16,12 @@ const Projects = () => {
                             <CardContainer className="inter-var">
                                 <CardBody className="bg-gray-50 relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto h-full border-2 border-gray-500 shadow-lg rounded-xl p-6">
                                     <CardItem translateZ="100" className="w-full mt-4 mb-8">
-                                        <img
+                                        <Image
                                             src={project.image}
-                                            height="300"
-                                            width="300"
+                                            height={300}
+                                            width={300}
                                             className="b-4 h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
-                                            alt="thumbnail"
+                                            alt={`${project.title} thumbnail`}
                                         />
                                     </CardItem>
                                     <CardItem
