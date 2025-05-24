@@ -8,14 +8,17 @@ interface SocialsProps {
 
 const socialLinks = [
     {
+        key: "github",
         href: "https://github.com/lsj0232191",
         icon: <FaGithub size={24}/>
     },
     {
+        key: "linkedin",
         href: "https://www.linkedin.com/in/sujin-lee-6a0766258/",
         icon: <FaLinkedin size={24}/>
     },
     {
+        key: "email",
         href: "mailto:sujin321.lee@gmail.com",
         icon: <FaEnvelope size={24}/>
     }
@@ -25,7 +28,7 @@ const Socials: React.FC<SocialsProps> = ({ containerClassName = "" }) => {
     return (
         <div className={`flex flex-row gap-4 ${containerClassName}`}>
             {socialLinks.map((link) => (
-                <Link href={link.href} target="_blank" rel="noopener noreferrer">
+                <Link href={link.href} target="_blank" rel="noopener noreferrer" key={link.href}>
                     {link.icon}
                 </Link>
             ))}

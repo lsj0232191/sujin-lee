@@ -18,15 +18,15 @@ export default {
       fontFamily: {
         poppins: ["var(--font-poppins)"],
       },
-    },
-    animation: {
-      'fade-in': 'fadeIn 1s ease-in forwards',
-      'fade-in-delay-1': 'fadeIn 1s 0.5s ease-in forwards',
-    },
-    keyframes: {
-      fadeIn: {
-        '0%': { opacity: 0 },
-        '100%': { opacity: 1 },
+      animation: {
+        'fade-in': 'fadeIn 1s ease-in forwards',
+        'fade-in-delay-1': 'fadeIn 1s 0.5s ease-in forwards',
+      },
+      keyframes: {
+        fadeIn: {
+          "0%": { opacity: '0' },
+          "100%": { opacity: '1' },
+        },
       },
     },
   },
