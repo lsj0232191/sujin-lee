@@ -25,7 +25,7 @@ export default function RootLayout({
       <body
         className={`${poppins.variable} ${poppins.variable} antialiased`}
       >
-        <Navbar />
+        {/* <Navbar /> */}
         <main className="min-h-screen">
           {children}
         </main>

@@ -24,6 +24,7 @@ export default {
 			'blue-1': '#ECF4FE',
 			'blue-2': '#D3E5F8',
 			'blue-3': '#A3BDED',
+			'blue-4': '#ceddf6',
   			foreground: 'hsl(var(--foreground))',
   			card: {
   				DEFAULT: 'hsl(var(--card))',
