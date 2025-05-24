@@ -4,7 +4,7 @@ import { experiences } from "@/data";
 
 const Experience = () => {
     return (
-        <section id="experience" className="bg-background">
+        <section id="experience" className="bg-blue-1">
             <div className="container mx-auto flex flex-col items-center justify-center max-w-7xl px-4 sm:px-6 lg:px-8">
                 <h1 className="text-5xl font-bold pt-20 pb-5 mb-10">Experience</h1>
                 <div className="grid grid-cols-1 gap-12 items-center mb-20 rounded-xl">
